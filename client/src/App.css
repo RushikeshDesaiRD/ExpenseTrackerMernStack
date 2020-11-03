@@ -1,0 +1,90 @@
+
+.expensess-tracker{
+ box-shadow: 10 20px 20px -10px;
+margin-top:10px;
+background:white;
+border-radius:30px;
+color:blue;
+}
+.expensess-tracker2{
+ box-shadow: 10 20px 20px -10px;
+margin-top:10px;
+background:white;
+border-radius:30px;
+font-size:30px;
+font-weight:bold;
+text-align:center;
+color:blue;
+padding:10px 0px;
+}
+.bordered{
+  background:blue;
+  border-radius:20px;
+  font-weight:bold;
+}
+.minus{
+  color:#ff3300;
+}
+.plus{
+  color:#66ff33;
+}
+.transaction{
+   margin-top:3px;
+   position:relative;
+   list-style-type:none;
+}
+.his-2{
+  color:#ff3300;
+}
+.btn-delete{
+  outline:none;
+  border:none;
+   background:#ff3300;
+   color:white;
+}
+.btn-delete2{
+   background:#00ff00;
+}
+
+.transaction:after{
+  position:absolute;
+  content:"";
+  width:5px;
+  height:90%;
+  top:0px;
+  right:0px;
+  background:#ff3300;
+}
+.transactiontwo{
+   margin-top:3px;
+   position:relative;
+   list-style-type:none;
+}
+.transactiontwo:after{
+  position:absolute;
+  content:"";
+  width:5px;
+  height:90%;
+  top:0px;
+  right:0px;
+  background:#66ff33;
+}
+.form-text{
+ width:100%;
+ border-radius:10px;
+ outline:none;
+ border:none;
+ border:2px solid blue;
+}
+.des-font-size{
+  font-size:12px;
+}
+.form-btn{
+  outline:none;
+  border:none;
+  background:blue;
+  color:white;
+  width:100%;
+  border-radius:20px;
+  padding:7px 0px;
+}
